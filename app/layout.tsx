@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'EFA Supplies | School Supplies in Davao City',
     description: 'Affordable school supplies in Davao City. Bulk and retail services by EFA Supplies.',
-    url: 'https://yourdomain.com',
+    url: 'https://efa-supplies.vercel.app',
     siteName: 'EFA Supplies',
     images: [
       {
-        url: 'https://yourdomain.com/banner.jpg',
+        url: 'https://efa-supplies.vercel.app/banner.jpg',
         width: 1200,
         height: 630,
         alt: 'EFA Supplies Banner',
