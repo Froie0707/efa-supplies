@@ -2,20 +2,14 @@ import StatsSection from "@/components/StatsSection";
 import TeamCard from "@/components/TeamCard";
 import TestimonialSlider from "@/components/TestimonialSlider";
 import TimelineItem from "@/components/TimelineItem";
-import { createMetadata } from "@/lib/pageMetadata";
+
 import Image from "next/image";
 
-// export const metadata = {
-//   title: 'About EFA Supplies | School Supplies in Davao City',
-//   description: 'Learn about EFA Supplies, a trusted school supply provider in Davao City. Discover our story, mission, team, and why we’re a partner in education.',
-// };
-
-export const metadata = createMetadata({
+export const metadata = {
   title: 'About EFA Supplies | School Supplies in Davao City',
   description: 'Learn about EFA Supplies, a trusted school supply provider in Davao City. Discover our story, mission, team, and why we’re a partner in education.',
-  path: '/about',
-  image: 'https://yourdomain.com/assets/about-us-hero.png',
-});
+};
+
 
 export default function AboutPage() {
   return (
