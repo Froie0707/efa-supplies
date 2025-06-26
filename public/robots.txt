@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://efa-supplies.vercel.app
+
+# Sitemaps
+Sitemap: https://efa-supplies.vercel.app/sitemap.xml

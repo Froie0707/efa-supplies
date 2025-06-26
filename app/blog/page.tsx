@@ -2,34 +2,11 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import Head from "next/head";
 import SEO from "@/components/SEO";
 import BlogCard from "@/components/BlogCard";
+import { blogPosts } from "@/lib/blogPosts";
 
-const blogPosts = [
-  {
-    title: "Back-to-School Checklist 2025",
-    excerpt: "Here’s what every student should have this year. View our full guide.",
-    image: "/images/blog/back-to-school.jpg",
-    slug: "back-to-school-supplies-2025",
-    date: "June 20, 2025",
-  },
-  {
-    title: "How to Save on Bulk School Supplies",
-    excerpt: "Tips on buying school supplies in bulk while staying on budget.",
-    image: "/images/blog/bulk-supplies.jpg",
-    slug: "save-on-bulk-school-supplies",
-    date: "May 30, 2025",
-  },
-  {
-    title: "Where to Shop: Why Choose EFA Supplies",
-    excerpt: "Discover why EFA Supplies is Davao City’s trusted school supply store. From pre-packed school kits to personalized service and nationwide delivery, we make back-to-school shopping stress-free and affordable.",
-    image: "/images/blog/bulk-supplies.jpg",
-    slug: "why-choose-efa-supplies",
-    date: "June 25, 2025",
-  },
-  // Add more posts as needed
-];
 
 export default function BlogPage() {
   const [search, setSearch] = useState("");
@@ -43,9 +20,7 @@ export default function BlogPage() {
       <SEO
         title="EFA Supplies Blog | Tips & Guides for Schools in Davao"
         description="Read helpful articles about school supply planning, bulk ordering, education news, and more from EFA Supplies."
-        url="https://yourdomain.com/blog"
-        // image="https://yourdomain.com/images/blog-banner.jpg"
-        // type="website"
+        url="/blog"
       />
 
       {/* Hero / Banner */}

@@ -1,5 +1,3 @@
-// app/blog/why-choose-efa-supplies/page.tsx
-
 import Image from "next/image";
 import Link from "next/link";
 import SEO from "@/components/SEO";
@@ -15,7 +13,7 @@ export default function WhyChooseEfaSuppliesPage() {
       <SEO
         title={metadata.title}
         description={metadata.description}
-        url="https://yourdomain.com/blog/why-choose-efa-supplies"
+        url="/blog/why-choose-efa-supplies"
       />
 
       <section className="max-w-4xl mx-auto px-4 py-12">

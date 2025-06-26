@@ -74,15 +74,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <section className="mt-24 bg-blue-50 py-12 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-8">What Our Customers Say</h2>
-          <blockquote className="italic text-lg text-gray-700">
-            “We’ve been sourcing from EFA Supplies for 2 years now. They always deliver quality, on time, every time.”
-            <footer className="mt-4 text-sm text-gray-600">— Principal, Davao Elementary School</footer>
-          </blockquote>
-        </div>
-      </section> */}
       <TestimonialSlider />
 
       <section className="mt-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">

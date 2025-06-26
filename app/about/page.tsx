@@ -102,21 +102,6 @@ export default function AboutPage() {
                 name="Grace L."
                 role="Customer Support"
             />
-          {/* <div>
-            <Image src="/images/team1.jpg" alt="Team Member" width={150} height={150} className="mx-auto rounded-full" />
-            <h4 className="font-semibold mt-4">Ella Abayon</h4>
-            <p className="text-sm text-gray-600">Founder & Operations Lead</p>
-          </div>
-          <div>
-            <Image src="/images/team2.jpg" alt="Team Member" width={150} height={150} className="mx-auto rounded-full" />
-            <h4 className="font-semibold mt-4">Mark Santos</h4>
-            <p className="text-sm text-gray-600">Logistics Coordinator</p>
-          </div>
-          <div>
-            <Image src="/images/team3.jpg" alt="Team Member" width={150} height={150} className="mx-auto rounded-full" />
-            <h4 className="font-semibold mt-4">Grace L.</h4>
-            <p className="text-sm text-gray-600">Customer Support</p>
-          </div> */}
         </div>
       </section>
 
@@ -136,18 +121,6 @@ export default function AboutPage() {
                 year="2023 – Delivery Expansion"
                 description="Launched in-house delivery across Davao."
             />
-          {/* <div>
-            <h4 className="font-semibold text-yellow-600">2020 – Founded</h4>
-            <p className="text-sm text-gray-600">Started with a small storefront in Davao City.</p>
-          </div>
-          <div>
-            <h4 className="font-semibold text-yellow-600">2021 – First School Partnerships</h4>
-            <p className="text-sm text-gray-600">Served 5 local schools with custom supply kits.</p>
-          </div>
-          <div>
-            <h4 className="font-semibold text-yellow-600">2023 – Delivery Expansion</h4>
-            <p className="text-sm text-gray-600">Launched in-house delivery across Davao.</p>
-          </div> */}
         </div>
       </section>
 
@@ -155,19 +128,6 @@ export default function AboutPage() {
 
       {/* Google Map Embed */}
       <MapLocation />
-      {/* <section className="mt-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 max-w-7xl mx-auto">
-        <h3 className="text-2xl font-bold mb-4 text-center">Visit Us</h3>
-        <div className="rounded overflow-hidden shadow-md aspect-video">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62815.4711165132!2d125.5019244!3d7.0736116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f90d421d8428c9%3A0xaeb8a5cc22788a1a!2sDavao%20City!5e0!3m2!1sen!2sph!4v1700000000000"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-          ></iframe>
-        </div>
-      </section> */}
 
       {/* Final CTA */}
       <section className="mt-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto bg-yellow-300 py-12 text-center rounded-xl">

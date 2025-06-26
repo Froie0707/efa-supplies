@@ -14,7 +14,7 @@ export default function BackToSchoolChecklist2025() {
       <SEO
         title={metadata.title}
         description={metadata.description}
-        url="https://yourdomain.com/blog/back-to-school-supplies-2025"
+        url="/blog/back-to-school-supplies-2025"
       />
       <section className="max-w-3xl mx-auto px-4 py-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
@@ -145,7 +145,7 @@ export default function BackToSchoolChecklist2025() {
 
         <div className="mt-10 text-center">
           <Link
-            href="/shop"
+            href=""
             className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded hover:bg-blue-700 transition"
           >
             Shop School Supplies Now

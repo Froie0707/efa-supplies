@@ -12,7 +12,7 @@ export default function SEO({ title, description, url }: Props) {
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={url} />
+      <link rel="canonical" href={`<link rel="canonical" href="https://efa-supplies.vercel.app"${url}`} />
     </Head>
   );
 }

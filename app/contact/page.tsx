@@ -1,15 +1,16 @@
 import Image from "next/image";
 import Head from "next/head";
 import MapLocation from "@/components/Location";
+import SEO from "@/components/SEO";
+
+export const metadata = {
+  title: "Contact Us | Trusted School Supplies Davao City",
+  description: "Have questions? Contact EFA Supplies, your source for quality school supplies in Davao City. We're here to support your educational needs.",
+};
 
 export default function ContactPage() {
   return (
     <>
-      <Head>
-        <title>Contact Us | EFA Supplies</title>
-        <meta name="description" content="Contact EFA Supplies — your trusted provider of school supplies in Davao City. Reach out for inquiries, bulk orders, or partnerships." />
-      </Head>
-
       <main className="w-full">
         {/* Hero Banner */}
         <section className="relative w-full h-[300px] sm:h-[400px] md:h-[500px]">
