@@ -2,6 +2,7 @@ import StatsSection from "@/components/StatsSection";
 import TeamCard from "@/components/TeamCard";
 import TestimonialSlider from "@/components/TestimonialSlider";
 import TimelineItem from "@/components/TimelineItem";
+import MapLocation from "@/components/Location";
 
 import Image from "next/image";
 
@@ -153,7 +154,8 @@ export default function AboutPage() {
       <TestimonialSlider />
 
       {/* Google Map Embed */}
-      <section className="mt-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 max-w-7xl mx-auto">
+      <MapLocation />
+      {/* <section className="mt-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 max-w-7xl mx-auto">
         <h3 className="text-2xl font-bold mb-4 text-center">Visit Us</h3>
         <div className="rounded overflow-hidden shadow-md aspect-video">
           <iframe
@@ -165,7 +167,7 @@ export default function AboutPage() {
             loading="lazy"
           ></iframe>
         </div>
-      </section>
+      </section> */}
 
       {/* Final CTA */}
       <section className="mt-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto bg-yellow-300 py-12 text-center rounded-xl">

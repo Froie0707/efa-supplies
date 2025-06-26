@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
+import MapLocation from "@/components/Location";
 
 export default function ContactPage() {
   return (
@@ -46,7 +47,7 @@ export default function ContactPage() {
             <h3 className="text-xl font-semibold mb-4">Business Information</h3>
             <ul className="text-gray-700 space-y-3 text-sm">
               <li><strong>📍 Address:</strong> Davao City, Philippines</li>
-              <li><strong>📞 Phone:</strong> +63 912 345 6789</li>
+              <li><strong>📞 Phone:</strong> +63 951 925 6730</li>
               <li><strong>📧 Email:</strong> info@efasupplies.ph</li>
               <li><strong>🕒 Business Hours:</strong> Mon–Sat, 9:00 AM – 6:00 PM</li>
             </ul>
@@ -54,20 +55,7 @@ export default function ContactPage() {
         </section>
 
         {/* Google Map Embed */}
-        <section className="mt-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold mb-4 text-center">Find Us on the Map</h2>
-          <div className="rounded overflow-hidden shadow-md aspect-video">
-            
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7918.51017307615!2d125.63091167864991!3d7.0964042604162305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d246bac4b79%3A0xb413f019edade0fa!2sSM%20Lanang!5e0!3m2!1sen!2sph!4v1750790464058!5m2!1sen!2sph"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-            ></iframe>
-          </div>
-        </section>
+        <MapLocation />
 
         {/* Final CTA */}
         <section className="mt-20 bg-yellow-300 py-12 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto rounded-xl">

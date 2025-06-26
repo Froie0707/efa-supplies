@@ -241,7 +241,7 @@ export default function WhyChooseEfaSuppliesPage() {
 
         <p className="text-xl font-semibold">
           🧠 Start your school year right —{" "}
-          <Link href="/shop" className="text-blue-600 underline">
+          <Link href="/services" className="text-blue-600 underline">
             shop with us today!
           </Link>
         </p>

@@ -50,7 +50,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-2">Follow Us</h4>
             <ul className="flex space-x-4 text-gray-400">
-              <li><a href="#" aria-label="Facebook" className="hover:text-white">📘</a></li>
+              <li><a rel="canonical" href="https://www.facebook.com/profile.php?id=61577994260757" aria-label="Facebook" className="hover:text-white">📘</a></li>
               <li><a href="#" aria-label="Instagram" className="hover:text-white">📸</a></li>
               <li><a href="#" aria-label="Twitter" className="hover:text-white">🐦</a></li>
             </ul>
