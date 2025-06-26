@@ -16,7 +16,7 @@ export default function ContactPage() {
         <section className="relative w-full h-[300px] sm:h-[400px] md:h-[500px]">
           <img
             src="/images/school-supplies-background.jpg"
-            alt="Contact EFA Supplies"
+          alt="A flat lay on a weathered wooden surface displays an open blank grid-lined notebook surrounded by a vibrant assortment of school supplies: colorful pencils, crayons, a watercolor paint set, pink sneakers, a calculator, scissors, and various novelty erasers."
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
@@ -47,10 +47,10 @@ export default function ContactPage() {
           <div className="bg-gray-50 p-6 rounded shadow">
             <h3 className="text-xl font-semibold mb-4">Business Information</h3>
             <ul className="text-gray-700 space-y-3 text-sm">
-              <li><strong>📍 Address:</strong> Davao City, Philippines</li>
+              <li><strong>📍 Address:</strong> Holy Cross Drive, R. Castillo St., Agdao, Davao City, Philippines</li>
               <li><strong>📞 Phone:</strong> +63 951 925 6730</li>
               <li><strong>📧 Email:</strong> info@efasupplies.ph</li>
-              <li><strong>🕒 Business Hours:</strong> Mon–Sat, 9:00 AM – 6:00 PM</li>
+              <li><strong>🕒 Business Hours:</strong> Mon–Sat, 8:00 AM – 5:00 PM</li>
             </ul>
           </div>
         </section>

@@ -26,8 +26,8 @@ export default function BlogPage() {
       {/* Hero / Banner */}
       <section className="relative w-full h-[300px] sm:h-[400px] md:h-[500px]">
         <Image
-          src="/images/blog-banner.jpg"
-          alt="EFA Blog Banner"
+          src="/images/school-supplies-background.jpg"
+          alt="A flat lay on a weathered wooden surface displays an open blank grid-lined notebook surrounded by a vibrant assortment of school supplies: colorful pencils, crayons, a watercolor paint set, pink sneakers, a calculator, scissors, and various novelty erasers."
           fill
           className="object-cover"
         />

@@ -12,7 +12,7 @@ export default function Home() {
         {/* Background Image */}
         <img
           src="/images/school-supplies-background.jpg"
-          alt="School Supplies Banner"
+          alt="A flat lay on a weathered wooden surface displays an open blank grid-lined notebook surrounded by a vibrant assortment of school supplies: colorful pencils, crayons, a watercolor paint set, pink sneakers, a calculator, scissors, and various novelty erasers."
           className="absolute inset-0 w-full h-full object-cover"
         />
 
