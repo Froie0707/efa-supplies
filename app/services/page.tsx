@@ -36,9 +36,11 @@ export default function ServicesPage() {
     <LayoutWrapper>
       {/* Hero */}
       <HeroBanner
-        title="A flat lay on a weathered wooden surface displays an open blank grid-lined notebook surrounded by a vibrant assortment of school supplies: colorful pencils, crayons, a watercolor paint set, pink sneakers, a calculator, scissors, and various novelty erasers."
+        title="Our Services"
         subtitle="Flexible and reliable school supply solutions for every need."
         imageUrl="/images/school-supplies-background.jpg"
+        altText="A flat lay on a weathered wooden surface displays an open blank grid-lined notebook surrounded by a vibrant assortment of school supplies: colorful pencils, crayons, a watercolor paint set, pink sneakers, a calculator, scissors, and various novelty erasers."
+
       />
 
       {/* Overview */}

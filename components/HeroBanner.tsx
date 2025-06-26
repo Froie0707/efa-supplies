@@ -2,14 +2,15 @@ type HeroBannerProps = {
   title: string;
   subtitle?: string;
   imageUrl: string;
+  altText: string;
 };
 
-export default function HeroBanner({ title, subtitle, imageUrl }: HeroBannerProps) {
+export default function HeroBanner({ title, subtitle, imageUrl, altText }: HeroBannerProps) {
   return (
     <section className="relative w-full h-[300px] sm:h-[400px] md:h-[500px]">
       <img
         src={imageUrl}
-        alt={title}
+        alt={altText}
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center px-4 text-center">
